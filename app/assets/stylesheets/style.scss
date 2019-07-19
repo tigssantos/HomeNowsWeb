@@ -15,7 +15,7 @@ img {
     max-width: 100%;
 }
 
-h1, h2, h4, .h1 {
+h2, h4, .h1 {
     font-family: "Dosis", sans-serif;
     color: #2b335e;
     line-height: 1.37em;
@@ -25,6 +25,11 @@ h1, h2, h4, .h1 {
 h1, .h1 {
     font-size: 40px;
 }
+
+.hero-text {
+    color: white;
+}
+
 
 @media (max-width: 767px) {
     h1, .h1 {
@@ -397,8 +402,8 @@ input::-webkit-input-placeholder {
 }
 
 .btn-green {
-    background: #38D996;
-    border-radius: 3px;
+    background: #A8C074;
+    border-radius: 6px;
     -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
     color: #fff !important;
@@ -710,6 +715,12 @@ input::-webkit-input-placeholder {
 	background-size:auto,cover;
 	background-position:0 0,50% 50%
 }
+.main-bg-back-4{
+    background-image: image-url("seo/minimal.jpg");
+    background-size:cover;
+    background-position:top center
+
+}
 .footer-bg-back{
     background-image: image-url("app/footer.jpg");
 	background-size:cover;
@@ -854,5 +865,10 @@ input::-webkit-input-placeholder {
 
 .slick-dots.dots-green > li.slick-active span {
     background: #192369;
+}
+
+.plant-image{
+    border-radius: 6px;    
+    background-image: image-url("seo/minimal.jpg")
 }
 
