@@ -701,7 +701,7 @@ input::-webkit-input-placeholder {
     background: #F3F6FB;
 }
 .main-bg-back-1{
-	background:linear-gradient(180deg,#22263f,rgba(33,41,94,.96)),url(app/download-bg.jpg) no-repeat;
+	background: #22263f !important;
 	background-size:auto,cover;
 	background-position:0 0,50% 50%
 }
@@ -871,4 +871,6 @@ input::-webkit-input-placeholder {
     border-radius: 6px;    
     background-image: image-url("seo/minimal.jpg")
 }
+
+
 
