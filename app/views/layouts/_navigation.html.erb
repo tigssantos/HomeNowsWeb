@@ -27,8 +27,12 @@
                      <li class="nav-item">
                         <a class="nav-link" href="#" data-scrollto="screenshot">LIFESTYLE</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link btn btn btn-rounded btn-green u-w-160 ml-lg-4 text-capitalize" href="#" data-scrollto="download">SUBCRIBE</a>
+                     <li class="nav-item nav-link btn btn btn-rounded btn-green u-w-160 ml-lg-4 text-capitalize">
+                     <% if current_user %>
+                     <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+                     <%else%>
+                     <%= link_to 'Sign in', new_user_session_path %>
+                     <% end %>
                      </li>
                   </ul>
                </div>

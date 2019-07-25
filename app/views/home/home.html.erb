@@ -6,7 +6,7 @@
             <p class="text-center u-fs-22 u-lh-1_7 u-py-40">Own less and live life on the go. Spend less time buying expensive products that deperciate in value and spend more time experiencing life.</p>
             <div class="col-12 text-center">
             <button type="submit" class="btn btn-green ">
-               Subscribe Now
+               <%= link_to 'Subscribe Now', new_user_registration_path %>        
             </button>
             </div>
          </div>
@@ -28,9 +28,9 @@
          <p class="mb-5">
             Ever wonder what freedom feels like? Minimalism can assist you in finding real freedom. Freedom from fear. Freedom from stress. Freedom from unnecessary headaches. Freedom from feeling like life is holding you down. Freedom from none stop consumerism. Minimalism allows you to be free and to be yourself.
          </p>
-         <a href="#" class="btn btn btn-rounded btn-green px-4">
-         Subcribe Now
-         </a>
+         <button type="submit" class="btn btn-green ">
+            <%= link_to 'Subscribe Now', new_user_registration_path %>        
+         </button>
       </div>
    </div>
 </div>
@@ -65,37 +65,34 @@
          <div class="row text-center">
             <div class="col-md-4 u-mt-30">
                <div class="bg-white px-5 u-py-50 u-h-100p rounded">
-                  <%=image_tag("seo/plant.jpg", class: "u-w-100", alt: "")%>
 
                   <h4 class="u-fs-26 u-my-35">
-                     Blah blah blah
+                     It's Free
                   </h4>
                   <p class="mb-0">
-                     Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem.
+                     Signing uo to our recycling program cost absolutely nothing. Anyone can sign up at anytime.
                   </p>
                </div>
             </div>
             <div class="col-md-4 u-mt-30">
                <div class="bg-white px-5 u-py-50 u-h-100p rounded">
-                  <%=image_tag("seo/plant.jpg", class: "u-w-100", alt: "")%>
 
                   <h4 class="u-fs-26 u-my-35">
-                     Blah blah blah
+                     Free Rewards
                   </h4>
                   <p class="mb-0">
-                     Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem.
+                     Earn rewards for being a good human being. Help take care of your planet and be rewarded. 
                   </p>
                </div>
             </div>
             <div class="col-md-4 u-mt-30">
                <div class="bg-white px-5 u-py-50 u-h-100p rounded">
-                  <%=image_tag("seo/plant.jpg", class: "u-w-100", alt: "")%>
 
                   <h4 class="u-fs-26 u-my-35">
-                     Blah blah blah
+                     Mission Driven
                   </h4>
                   <p class="mb-0">
-                     Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem.
+                     We're a mission driven company focused on opening people up to a different type of lifestyle.
                   </p>
                </div>
             </div>
@@ -184,9 +181,9 @@
                      </ul>
                      <hr class="m-0">
                      <div class="u-py-40">
-                        <a href="#" class="btn btn-green btn-rounded">
-                        Subcribe
-                        </a>
+                        <button type="submit" class="btn btn-green ">
+                           <%= link_to 'Subscribe', new_user_registration_path %>       
+                        </button>
                      </div>
                   </div>
                </div>
@@ -206,9 +203,9 @@
                      </ul>
                      <hr class="m-0">
                      <div class="u-py-40">
-                        <a href="#" class="btn btn-green btn-rounded">
-                        Subcribe
-                        </a>
+                        <button type="submit" class="btn btn-green ">
+                           <%= link_to 'Subscribe', new_user_registration_path %>       
+                        </button>
                      </div>
                   </div>
                </div>
@@ -228,9 +225,9 @@
                      </ul>
                      <hr class="m-0">
                      <div class="u-py-40">
-                        <a href="#" class="btn btn-green btn-rounded">
-                        Subscribe
-                        </a>
+                        <button type="submit" class="btn btn-green ">
+                           <%= link_to 'Subscribe', new_user_registration_path %>       
+                        </button>
                      </div>
                   </div>
                </div>

@@ -9,6 +9,7 @@ gem 'popper_js'
 gem 'tether-rails'
 gem 'bootsnap'
 gem 'listen'
+gem 'devise'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
