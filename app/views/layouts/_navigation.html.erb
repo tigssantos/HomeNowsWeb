@@ -16,16 +16,24 @@
                <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active">
-                        <a class="nav-link" href="#" data-scrollto="top">HOME</a>
+                        <button type="submit" class="btn nav-link ">
+                           <%= link_to 'HOME', root_path %>        
+                        </button>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="about">ABOUT</a>
+                        <button type="submit" class="btn nav-link ">
+                           <%= link_to 'ABOUT', about_path %>        
+                        </button>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="features">RECYCLING</a>
+                        <button type="submit" class="btn nav-link ">
+                           <%= link_to 'RECYCLING', recycling_path %>        
+                        </button>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#" data-scrollto="screenshot">LIFESTYLE</a>
+                        <button type="submit" class="btn nav-link ">
+                           <%= link_to 'LIFESTYLE', lifestyle_path %>        
+                        </button>
                      </li>
                      <li class="nav-item nav-link btn btn btn-rounded btn-green u-w-160 ml-lg-4 text-capitalize">
                      <% if current_user %>
